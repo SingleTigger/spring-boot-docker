@@ -1,12 +1,12 @@
 package com.chenws.docker.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by chenws on 2020/4/30.
  */
-@RestController
+@Controller
 public class TestController {
 
     @GetMapping("/")
