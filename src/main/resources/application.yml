@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: spring-boot-docker
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
